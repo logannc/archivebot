@@ -1,0 +1,13 @@
+[package]
+name = "archivebot"
+version = "0.1.0"
+authors = ["Logan Collins <logan@lcspace.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.10.0", features = ["full"] }
+serenity = "0.11.7"
+itertools = "0.11.0"
+dotenv = "0.15.0"
